@@ -7,7 +7,7 @@
     "start": "nodemon ./index.js --ignore node_modules/ -e js,html,css"
   },
   "author": "Anthony Gore <anthony@vuejsdevelopers.com>",
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/vuejsdevelopers/vuejs-poster-shop"
   },
@@ -27,12 +27,18 @@
     "body-parser": "~1.18.2",
     "dotenv": "~2.0.0",
     "express": "^4.14.0",
+    "npm": "^6.0.0",
     "querystring": "~0.2.0",
     "scrollmonitor": "~1.2.0",
     "vue": "~2.1.0",
     "vue-resource": "~1.0.3"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-vue": "^4.5.0",
     "nodemon": "~1.11.0",
     "reload": "~1.1.0"
   }
